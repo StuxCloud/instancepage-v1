@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.cloud/logo.png" height="100" alt="Stux.Cloud Logo">
+  <img src="https://global.media.stux.cloud/old/logo.png" height="100" alt="Stux.Cloud Logo">
 </p>
 
 # Instance Page v1

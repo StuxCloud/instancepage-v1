@@ -2,6 +2,12 @@
 
 All notable changes to instancepage-v1 are documented here.
 
+## v1.0.1
+
+### Changed
+- `index.html`'s logo, icon, and `README.md`'s logo now point at the `/old/` variants (`https://global.media.stux.cloud/old/logo.png` and `/old/icon.png`), matching this project's archived, pre-redesign branding rather than the current Stux.Cloud brand assets.
+- Added a `favicon.ico` link (`https://global.media.stux.cloud/old/favicon.ico`) alongside the existing PNG icon for broader browser compatibility.
+
 ## v1.0.0
 
 ### Added
