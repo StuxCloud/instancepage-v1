@@ -4,7 +4,7 @@
     <meta name="description" content="Instance Hosted by Stux.Cloud">
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="icon" type="image/png" href="https://media.stux.cloud/global/icon.png" />
+    <link rel="icon" type="image/png" href="https://global.media.stux.cloud/icon.png" />
     <style>
         * {
             box-sizing: border-box; 
@@ -421,6 +421,22 @@
             padding-left: 5px;
             padding-right: 5px;
         }
+        .site-footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+        }
+        .site-footer a {
+            color: inherit;
+            opacity: 0.6;
+            text-decoration: none;
+        }
+        .site-footer a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
         @media (prefers-color-scheme: dark) {
             body, main {
                 color: #fff;
@@ -435,7 +451,7 @@
 <body>
     <main>
         <div id="logo">
-            <img src="https://media.stux.cloud/global/logo.png">
+            <img src="https://global.media.stux.cloud/logo.png">
         </div>
         <div class="text">
             <h1>Hi I'm</h1>
@@ -500,6 +516,9 @@
             <h1>Feel free to contact me at <span id="admin-email">ZAK@Stux.Cloud</span></h1>
         </div>
     </main>
+    <footer class="site-footer">
+        <a href="https://stux.cloud/legal" target="_blank" rel="noopener">Boring Legal Stuff</a>
+    </footer>
     <script>
         <!--var $pageaddress = window.location.href.replace(/https?:\/\//i, "")-->
         if(parent !== window) {
