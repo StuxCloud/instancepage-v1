@@ -2,6 +2,11 @@
 
 All notable changes to instancepage-v1 are documented here.
 
+## v1.0.3
+
+### Added
+- `404.html`: a custom not-found page matching this archive's legacy branding (blue gradient wordmark, monospace type, old logo/icon assets), instead of GitHub Pages' default error page.
+
 ## v1.0.2
 
 ### Fixed

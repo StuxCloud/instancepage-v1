@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Not Found — Stux.Cloud</title>
+    <meta name="description" content="Page not found — Stux.Cloud">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://global.media.stux.cloud/old/icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://global.media.stux.cloud/old/favicon.ico">
+    <style>
+        * { box-sizing: border-box; }
+
+        html, body {
+            margin: 0; padding: 0; height: 100%;
+            background-color: #fff;
+            color: #111;
+            font-family: 'Source Code Pro', monospace;
+            display: flex; align-items: center; justify-content: center; text-align: center;
+        }
+
+        a { color: #0089f2; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+
+        .wrapper { padding: 2rem 1.5rem; max-width: 420px; }
+        .code {
+            font-weight: bold; font-size: clamp(3.5rem, 12vw, 5.5rem); line-height: 1;
+            background: linear-gradient(to right, #2579ba 0%, #0089f2 50%, #214db2 100%);
+            -webkit-background-clip: text; background-clip: text; color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        h1 { font-weight: bold; font-size: clamp(1.2rem, 4vw, 1.5rem); margin-bottom: 0.75rem; }
+        p { opacity: 0.75; font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.75rem; }
+
+        .home-link {
+            display: inline-flex; align-items: center; gap: 8px; padding: 11px 20px; border-radius: 4px;
+            font-size: 14px; font-weight: bold; border: 1px solid #0089f2; background: rgba(0, 137, 242, 0.08);
+        }
+        .home-link:hover { background: rgba(0, 137, 242, 0.16); text-decoration: none; }
+
+        footer.site-footer { position: fixed; bottom: 10px; width: 100%; text-align: center; font-size: 12px; }
+        footer.site-footer a { color: inherit; opacity: 0.6; text-decoration: none; font-weight: normal; }
+        footer.site-footer a:hover { opacity: 1; text-decoration: underline; }
+
+        @media (prefers-color-scheme: dark) {
+            html, body { color: #fff; background-color: #333; }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="code">404</div>
+        <h1>Server not found</h1>
+        <p>Whatever you were looking for isn't here &mdash; the link might be old, or the page might have moved.</p>
+        <a class="home-link" href="./">&larr; Back to Stux.Cloud</a>
+    </div>
+    <footer class="site-footer">
+        <a href="https://stux.cloud/legal" target="_blank" rel="noopener">Boring Legal Stuff</a>
+    </footer>
+</body>
+</html>
