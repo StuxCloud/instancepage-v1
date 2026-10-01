@@ -35,7 +35,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to get involved, and [CHANGELOG.m
 
 ## License
 
-Copyright (c) 2026 Stux Group Ltd. This project is open source and available for use and modification.
+Copyright (c) 2026 Stux.Group. This project is open source and available for use and modification.
 
 ---
 

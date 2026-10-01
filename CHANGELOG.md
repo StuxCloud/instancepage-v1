@@ -2,6 +2,12 @@
 
 All notable changes to instancepage-v1 are documented here.
 
+## v1.0.4
+
+### Changed
+
+- The copyright line reads Stux.Group instead of Stux Group Ltd
+
 ## v1.0.3
 
 ### Added
