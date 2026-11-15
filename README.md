@@ -22,6 +22,7 @@ This is a lightweight, self-contained HTML landing page used to announce Stux.Cl
 2. Run it locally:
    ```bash
    ./dev-server.sh        # or dev-server.bat on Windows
+   ./dev-server.sh --lan  # also open it from a phone or another device on your network
    ```
    Then open the printed `http://127.0.0.1:8000` URL. You can also just open `index.html` directly in your browser, or deploy it to your hosting provider.
 
